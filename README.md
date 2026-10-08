@@ -14,7 +14,7 @@ Add the dependency to `mach.toml`:
 ```toml
 [dep.math]
 git = "https://github.com/briar-systems/mach-math"
-version = "^0.1"
+ref = "branch/dev"
 ```
 
 Then bind the library in a source file:
@@ -22,6 +22,8 @@ Then bind the library in a source file:
 ```mach
 use math;
 ```
+
+Modules: `math.mat4` (4x4 matrices), `math.quat` (quaternions).
 
 
 ## Contributing
