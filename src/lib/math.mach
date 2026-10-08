@@ -3,3 +3,6 @@
 
 # the startup a test dispatcher of this library links
 use std.runtime;
+
+fwd math.mat4;
+fwd math.quat;
