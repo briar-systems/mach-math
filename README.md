@@ -17,13 +17,14 @@ git = "https://github.com/briar-systems/mach-math"
 ref = "branch/dev"
 ```
 
-Then bind the library in a source file:
+Then import each module by its source path in the package:
 
 ```mach
-use math;
+use math.mat4;
+use math.quat;
 ```
 
-Modules: `math.mat4` (4x4 matrices), `math.quat` (quaternions).
+`math.mat4` holds 4x4 matrices and `math.quat` holds quaternions.
 
 
 ## Contributing
