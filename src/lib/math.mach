@@ -1,5 +1,5 @@
-# the math library, what a dependent's `use math;` binds
-# Vector-space math, starting with 4x4 matrices and quaternions.
+# vector-space math, the modules the prebuilt math artifact carries
+# 4x4 matrices in math.mat4 and quaternions in math.quat
 
 # the startup a test dispatcher of this library links
 use std.runtime;
